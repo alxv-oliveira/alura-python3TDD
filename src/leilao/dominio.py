@@ -1,5 +1,4 @@
 class Usuario:
-
     def __init__(self, nome):
         self.__nome = nome
 
@@ -9,14 +8,12 @@ class Usuario:
 
 
 class Lance:
-
     def __init__(self, usuario, valor):
         self.usuario = usuario
         self.valor = valor
 
 
 class Leilao:
-
     def __init__(self, descricao):
         self.descricao = descricao
         self.__lances = []
