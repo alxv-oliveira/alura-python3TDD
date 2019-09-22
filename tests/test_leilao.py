@@ -42,8 +42,8 @@ class TestLeilao(TestCase):
         lance_do_yuri = Lance(yuri, 100.0)
         lance_do_vini = Lance(vini, 200.0)
 
-        self.leilao.propoe(self.lance_do_gui)
         self.leilao.propoe(lance_do_yuri)
+        self.leilao.propoe(self.lance_do_gui)
         self.leilao.propoe(lance_do_vini)
 
         menor_valor_esperado = 100.0
